@@ -1,0 +1,14 @@
+// Window Width Height FrameLimit FullScreen
+Window 1280 720 60 1
+
+// Font FontFile FontSize R G B
+Font UniversCondensed.ttf 24 255 255 255
+
+// Player Lives Invulnerable ShapeRadius CollisionRadius Speed FillColor(R,G,B) OutlineColor(R,G,B) InvulnerableOutlineColor(R,G,B) OutlineThickness ShapeVertices
+Player 3 120 32 32 5 5 5 5 255 0 0 0 0 255 4 9
+
+// Enemy ShapeRadius CollisionRadius Speed(Min,Max) OutlineColor(R,G,B) OutlineThickness Vertices(Min,Max) SmallLifespan SmallSpeedDiv SpawnInterval
+Enemy 32 32 3 3 255 255 255 2 3 8 35 3 120
+
+// Bullet ShapeRadius CollisionRadius Speed FillColor(R,G,B) OutlineColor(R,G,B) OutlineThickness ShapeVertices Lifespan
+Bullet 10 10 20 255 255 255 255 255 255 2 20 30
